@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColouc">#009688</color>
+    <color name="colorName">#FF0000</color>
+    <color name="header_background">#FF9800</color> <!-- Màu nền tiêu đề -->
+    <color name="row_even">#F5F5F5</color> <!-- Màu nền hàng chẵn -->
+    <color name="row_odd">#FFFFFF</color> <!-- Màu nền hàng lẻ -->
+
+
+
+</resources>

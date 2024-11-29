@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1079169081008",
+    "firebase_url": "https://test-app-b333d-default-rtdb.firebaseio.com",
+    "project_id": "test-app-b333d",
+    "storage_bucket": "test-app-b333d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079169081008:android:a28ef89a58f1af68e12575",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMGrBbnsmL45jTxvrYsQ9ZvGhyegI4nfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

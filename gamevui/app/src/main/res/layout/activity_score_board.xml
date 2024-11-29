@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bảng Xếp Hạng Điểm Số"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Bảng xếp hạng -->
+    <TableLayout
+        android:id="@+id/scoreTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="8dp">
+
+        <!-- Hàng tiêu đề -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/header_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="13dp"
+                android:text="Top"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="center" />  <!-- Căn giữa -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:padding="16dp"
+                android:text="Tên người chơi"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:gravity="center" />  <!-- Căn giữa -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:padding="13dp"
+                android:text="Score"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="center" />  <!-- Căn giữa -->
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
